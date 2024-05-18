@@ -1,0 +1,286 @@
+
+header {
+    background-color: #2169ac;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.logo img {
+    width: 175px;
+}
+
+.header-content {
+    text-align: center;
+    flex-grow: 1;
+}
+
+header h1,
+header p {
+    color: white;
+    margin: 0;
+
+}
+
+.header-content h1 {
+    font-size: 75px;
+}
+
+.header-content p {
+    font-size: 18px;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 15px 20px;
+    border: 2px solid white;
+    border-radius: 5px;
+    margin: 5px;
+    display: inline-block;
+    font-size: 18px;
+    transition: background-color 0.3s;
+}
+
+nav a:hover {
+    background-color: #fff;
+    color: #2169ac;
+}
+
+main {
+    text-align: center;
+    padding: 10px;
+    background-color: #d7eeff;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.home-content{
+    color: #00139e;
+    font-size: 20px;
+}
+
+main img {
+    display: block; 
+    margin: 20px auto; 
+}
+
+footer {
+    background-color: #d7eeff;
+    text-align: center; 
+    padding: 10px; 
+    margin-top: 0;
+}
+
+footer p {
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+footer img {
+    margin: 0 10px; 
+}
+
+.our-story-box {
+    background-color: #2169ac;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    margin: 0 5in;
+}
+
+.our-story-box h2{
+    font-size: 40px;
+}
+
+.our-story-text {
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 10px 5in;
+}
+
+.our-story-text p{
+    font-size: 25px;
+}
+
+.contact-us-box {
+    background-color: #2169ac;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    margin: 0 5in;
+}
+
+.contact-us-box h3 {
+    font-size: 40px;
+}
+
+.contact-form {
+    text-align: center;
+}
+
+.input-box {
+    display: inline-block;
+    margin: 10px;
+    vertical-align: top;
+}
+
+.input-box input {
+    width: 200px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.input-box.message input {
+    width: 400px;
+    height: 150px;
+}
+
+.apply-membership-box {
+    background-color: #2169ac;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    margin: 0 5in;
+}
+
+.apply-membership-box h2{
+    font-size: 40px;
+}
+
+.pricing-box {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 0 5in;
+}
+
+.application-box {
+    background-color: #2169ac;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    margin: 0 5in;
+}
+
+.application-box h2{
+    font-size: 40px;
+}
+
+.club-photo-img {
+    width: 20%;
+    height: auto;
+}
+
+.membership-form {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    margin: 0 5in;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.apply-button {
+    background-color: #2169ac;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.apply-button:hover {
+    background-color: #00139e;
+}
+
+.schedule-box {
+    background-color: #2169ac;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    margin: 0 5in;
+}
+
+.schedule-box h2 {
+    font-size: 40px;
+}
+
+.days-and-times-box {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 0 5in;
+}
+
+.days-and-times-box p {
+    font-size: 26px;
+}
+
+.services-box {
+    background-color: #2169ac;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    margin: 0 5in
+}
+
+.services-box h2 {
+    font-size: 40px;
+}
+
+.services-description-box {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 0 5in;
+}
+
+.services-description-box p {
+    font-size: 20px;
+}
+
+.picture-text p {
+    font-size: 15px;
+}
+
+.pricing-box p {
+    font-size: 20px;
+}
+
+@media screen and (min-width: 768px) {
+    nav {
+        flex-direction: row;
+    }
+}
